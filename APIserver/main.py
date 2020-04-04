@@ -1,7 +1,7 @@
 from flask_restful import reqparse, abort, Api, Resource
 from flask import Flask
 from flask import render_template
-app = Flask(__name__, static_folder='../PCclient', static_url_path='')
+app = Flask(__name__, static_folder='../PCWebclient', static_url_path='')
 @app.route('/')
 def index():
     return app.send_static_file("index.html")

@@ -9,7 +9,7 @@ import ctypes
 import sys
 import os
 from threading import Thread, Lock
-dll = CDLL("../WebSocketTools/x64/Debug/WebSocketTools.dll")
+dll = CDLL("./WebSocketTools/x64/Debug/WebSocketTools.dll")
 
 
 class Server:
